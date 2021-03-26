@@ -1,6 +1,6 @@
 $(document).ready(function() {
   // when the button  is clicked
-  $("#ok").click(function(event) {
+  $("#button").click(function(event) {
     event.preventDefault();
     // find which options were selected
     // get all of the options
@@ -18,11 +18,11 @@ $(document).ready(function() {
    
     let answer;
     
-    if (option1 === false) {
+    if (option1 === true && option2 === false) {
       answer = "JavaScript";
-    } else if (option2 === true) {
-      answer = "C#";
-    } else if (option3 === true) {
+    } else if (option2 === true && option1 === true) {
+      answer = "MATLAB";
+    } else if (option5 === true && option2 === false) {
       answer = "Python";
     } 
     

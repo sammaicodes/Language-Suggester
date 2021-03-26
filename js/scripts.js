@@ -22,7 +22,7 @@ $(document).ready(function() {
       answer = "JavaScript";
     } else if (option2 === true && option1 === true) {
       answer = "MATLAB";
-    } else if (option5 === true && option2 === false) {
+    } else if (option5 === false && option1 === false) {
       answer = "Python";
     } 
     

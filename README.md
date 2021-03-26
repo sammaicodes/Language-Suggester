@@ -11,12 +11,15 @@
 * _HTML_
 * _CSS_
 * _GitBash_
+* _JavaScript_
+* _jQuery_
+*_Bootstrap_
 
 ## Description
 
-_In brief, this project shows the utilization of basic structure and implementation of HTML and CSS._
+_In brief, this project shows the utilization of basic conditioning logic and returning a value with user input._
 
-_You may access this project at https://sammaicodes.github.io/First-Friday-Project/_
+_You may access this project at https://
 
 ## Setup/Installation Requirements
 

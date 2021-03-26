@@ -28,9 +28,6 @@ $(document).ready(function() {
     
     $(".language").text(answer);
     $("#suggestion").show();
-    $(".click").click(function() {
-      $("#pic-showing").toggle();
-    });  
-    
+     
   });
 }); 

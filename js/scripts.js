@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // when the button  is clicked
   $("#ok").click(function(event) {
-    event.preventDefault();    
+    event.preventDefault();
     // find which options were selected
     // get all of the options
     let option1 = $("#true1")[0].selected;
@@ -20,19 +20,13 @@ $(document).ready(function() {
     
     if (option1 === false) {
       answer = "JavaScript";
-      $("#suggestion").show();
     } else if (option2 === true) {
       answer = "C#";
     } else if (option3 === true) {
       answer = "Python";
     } 
     
-    $("#suggestion").show();
-    // populate suggestion span
     $(".language").text(answer);
-
-    
-   
-    
+    $("#suggestion").show();  
   });
 }); 

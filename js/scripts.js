@@ -27,6 +27,10 @@ $(document).ready(function() {
     } 
     
     $(".language").text(answer);
-    $("#suggestion").show();  
+    $("#suggestion").show();
+    $(".click").click(function() {
+      $("#pic-showing").toggle();
+    });  
+    
   });
 }); 

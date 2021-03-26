@@ -17,20 +17,22 @@ $(document).ready(function() {
     let option10 = $("#false5")[0].selected;
    
     let answer;
+    
     if (option1 === false) {
       answer = "JavaScript";
+      $("#suggestion").show();
     } else if (option2 === true) {
       answer = "C#";
     } else if (option3 === true) {
       answer = "Python";
     } 
     
-    
+    $("#suggestion").show();
     // populate suggestion span
     $(".language").text(answer);
 
-    // display suggestion
-    $("#suggestion").show();
+    
+   
     
   });
 }); 

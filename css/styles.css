@@ -1,5 +1,7 @@
 body {
   background-color: lavender;
+  color: gray;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .btn {
   background-color: greenyellow ;
@@ -12,4 +14,15 @@ body {
 
 #suggestion {
   display: none;
+}
+
+.text-center {
+color: chocolate;
+background-color: mistyrose;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#q1, #q2, #q3, #q4, #q5 {
+  background-color: lightgoldenrodyellow;
+  border: none;
 }

@@ -1,6 +1,7 @@
 $(document).ready(function() {
   // when the button  is clicked
-  $("#submit").submit(function() {
+  $("#ok").click(function(event) {
+    event.preventDefault();  
       
     // find which options were selected
     // get all of the options
@@ -17,6 +18,9 @@ $(document).ready(function() {
     let option10 = $("#false5")[0].selected;
 
     let answer;
+    $(".btn").click(function(){
+      $("#suggestion").hide();
+    });
    
     if (option1 === true) {
       answer = "JavaScript";
@@ -30,5 +34,6 @@ $(document).ready(function() {
 
     // display suggestion
     $("#suggestion").show();
+    
   });
 }); 

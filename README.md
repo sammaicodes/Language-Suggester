@@ -13,11 +13,11 @@
 * _GitBash_
 * _JavaScript_
 * _jQuery_
-*_Bootstrap_
+* _Bootstrap_
 
 ## Description
 
-_In brief, this project shows the utilization of basic conditioning logic and returning a value with user input._
+_In brief, this project shows the utilization of basic concepts of functions, branching, and returning a value with user input._
 
 _You may access this project at https://
 
@@ -35,10 +35,12 @@ _You may access this project at https://
 
 ## Known Bugs
 
-* _Nothing yet_
+* _Often times you need to refresh the page when multiple users interact with the application._
 
 ## License
 
 _MIT &copy; 2021 Sammai Gutierrez_
 
 ## Contact Information
+
+_You may best reach me by email at sammaigutierrez@gmail.com

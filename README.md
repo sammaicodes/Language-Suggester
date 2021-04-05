@@ -19,8 +19,6 @@
 
 _In brief, this project shows the utilization of basic concepts of functions, branching, and returning a value with user input._
 
-_You may access this project at https://
-
 ## Setup/Installation Requirements
 
 * _Internet browser_

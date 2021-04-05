@@ -1,6 +1,6 @@
-# Programming Journey
+# Programming Language Suggester
 
-####  A Project Implementing Basic HTML and CSS
+####  A Project Implementing Branching HTML, CSS, and JavaScript
 
 #### By _**Sammai Gutierrez**_
 
